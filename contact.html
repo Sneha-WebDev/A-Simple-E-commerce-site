@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMIRTHINI'S BOUTIQUE</title>
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <!--My css-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font awersome icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <!--nav bar-->
+    <nav class="navbar">
+
+        <h1>AMIRTHINI'S BOUTIQUE</h1>
+
+        <div class="navbar-links">
+
+            <p class="navbar-link"><a href="index.html">HOME</a></p>
+            <P class="navbar-link"><a href="collection.html"> COLLECTIONS</a></P>
+            <P class="navbar-link"><a href="contact.html">CONTACT</a></P>
+        </div>
+
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+    </nav>
+
+
+    <!--side navbar-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick=" closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+
+        </p>
+        <div class="side-navbar-links">
+
+            <p class="side-navbar-link"><a href="index.html">HOME</a></p>
+            <P class="side-navbar-link"><a href="collection.html"> COLLECTIONS</a></P>
+            <P class="side-navbar-link"><a href="contact.html">CONTACT</a></P>
+        </div>
+
+    </div>
+
+    <div class="contact-section">
+        <h2>Contact Us</h2>
+        <p>If you have any questions, feel free to reach out to us by filling out the form below.</p>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">email</label>
+                <input type="text" id="email" email="email" required>
+            </div>
+
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+              </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+        </div>
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+
+                <h2 class="headingtext"> AMIRTHINI'S BOUTIQUE</h2>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, cumque?</P>
+                <div class="footer-icon-container">
+                    <i class="fab fa-twitter-square" style="color: blueviolet;"></i>
+                    <i class="fab fa-instagram-square" style="color: blueviolet;"></i>
+                    <i class="fab fa-facebook-square" style="color: blueviolet;"></i>
+
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <p> @ 2024 Amirthini.com</p>
+    </div>
+
+
+
+
+    <script src="collection.js"></script>
+</body>
+
+</html>
